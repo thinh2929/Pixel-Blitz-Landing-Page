@@ -1,15 +1,5 @@
 import { Link } from 'react-router-dom';
 
-// Dữ liệu mẫu (Sau này bạn sẽ gọi từ API)
-const MOCK_GAMES = [
-  { id: 'free-fire', name: 'Free Fire', category: 'Hành động', rating: 4.5, icon: 'https://placehold.co/150x150/0f172a/22c55e?text=FF' },
-  { id: 'pubg-mobile', name: 'PUBG Mobile', category: 'Bắn súng', rating: 4.8, icon: 'https://placehold.co/150x150/0f172a/22c55e?text=PUBG' },
-  { id: 'roblox', name: 'Roblox', category: 'Phiêu lưu', rating: 4.2, icon: 'https://placehold.co/150x150/0f172a/22c55e?text=RB' },
-  { id: 'minecraft', name: 'Minecraft', category: 'Sáng tạo', rating: 4.9, icon: 'https://placehold.co/150x150/0f172a/22c55e?text=MC' },
-  { id: 'genshin-impact', name: 'Genshin Impact', category: 'RPG', rating: 4.7, icon: 'https://placehold.co/150x150/0f172a/22c55e?text=GI' },
-  { id: 'clash-of-clans', name: 'Clash of Clans', category: 'Chiến thuật', rating: 4.6, icon: 'https://placehold.co/150x150/0f172a/22c55e?text=COC' },
-];
-
 const HomePage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
