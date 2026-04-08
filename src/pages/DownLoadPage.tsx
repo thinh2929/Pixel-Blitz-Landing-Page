@@ -66,7 +66,7 @@ const DownloadPage = () => {
           ) : (
             <div className="flex flex-col items-center animate-in fade-in zoom-in duration-500">
               <a 
-                href="" 
+                href="https://github.com/thinh2929/Pixel-Blitz-Landing-Page/releases/download/v1.0.0/PixelBlitz_260408_1.apk" 
                 download
                 className="w-full md:w-auto bg-green-500 hover:bg-green-400 text-[#0f172a] px-12 py-5 rounded-2xl font-black uppercase text-lg tracking-widest shadow-[0_10px_40px_rgba(34,197,94,0.4)] transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3"
               >
